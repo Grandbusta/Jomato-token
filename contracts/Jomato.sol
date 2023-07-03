@@ -6,7 +6,7 @@ contract Jomato {
   string private _name="Jomato";
   string private _symbol="JMT";
   uint8 private _decimals=18;
-  string private _website = "https://botoken.com";
+  string private _website = "";
 
   mapping(address => uint) private _balances;
   mapping(address => mapping(address => uint)) private _allowance;
